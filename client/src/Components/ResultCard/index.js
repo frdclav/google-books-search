@@ -2,12 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const ResultCard = (props) => {
-    const checkThing = (arg) => {
-        if (arg) {
-            return arg
-        }
-        else console.log(arg)
-    };
+
 
     return (
         <div className="container-fluid p-2 border ">

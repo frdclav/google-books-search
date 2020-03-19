@@ -8,6 +8,7 @@ var BookSchema = new Schema({
   description: { type: String },
   image: { type: String },
   link: { type: String },
+  subtitle: { type: String },
   date: { type: Date, default: Date.now }
 
 });
